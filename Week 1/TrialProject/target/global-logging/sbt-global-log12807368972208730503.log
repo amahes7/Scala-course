@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(147c7c02-d25b-43c0-94a7-558c0091e01c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/amaheshw/Documents/Scala-course/Scala-course/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.11' for Scala 2.11.8. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 6.314s.[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 8 s, completed Apr 7, 2021, 12:17:39 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

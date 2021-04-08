@@ -1,0 +1,109 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/7h/x0t9h4cx2qj_crxml1txyjdh0000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/amaheshw/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure, Some(58a97006-b48a-40af-9336-8c1090be639f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/7h/x0t9h4cx2qj_crxml1txyjdh0000gp/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers"), None, Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new values will be used by cleanKeepGlobs[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Global / sbtStructureOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Global / sbtStructureOutputFile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	history[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shellPrompt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new values will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	cleanKeepGlobs[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to Scala-course (in build file:/Users/amaheshw/Documents/Scala-course/Scala-course/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(apply -cp "/Users/amaheshw/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mApplying State transformations org.jetbrains.sbt.CreateTasks from /Users/amaheshw/Library/Application Support/JetBrains/IntelliJIdea2020.3/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to Scala-course (in build file:/Users/amaheshw/Documents/Scala-course/Scala-course/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Global / dumpStructure[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
+[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m	Note: Unresolved dependencies path:[0m
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading org.scalatest:scala_2.13:2.2.6[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /Users/amaheshw/.ivy2/localorg.scalatest/scala_2.13/2.2.6/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scalatest/scala_2.13/2.2.6/scala_2.13-2.2.6.pom[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3486)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading org.scalatest:scala_2.13:2.2.6[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /Users/amaheshw/.ivy2/localorg.scalatest/scala_2.13/2.2.6/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scalatest/scala_2.13/2.2.6/scala_2.13-2.2.6.pom[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3486)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scala_2.13:2.2.6[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /Users/amaheshw/.ivy2/localorg.scalatest/scala_2.13/2.2.6/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scalatest/scala_2.13/2.2.6/scala_2.13-2.2.6.pom[0m
+[0m[[0m[31merror[0m] [0m[0m([31mssExtractDependencies[0m) sbt.librarymanagement.ResolveException: Error downloading org.scalatest:scala_2.13:2.2.6[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /Users/amaheshw/.ivy2/localorg.scalatest/scala_2.13/2.2.6/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scalatest/scala_2.13/2.2.6/scala_2.13-2.2.6.pom[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Apr 7, 2021, 12:17:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

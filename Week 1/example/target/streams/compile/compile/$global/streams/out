@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/amaheshw/Documents/Scala-course/example/src/main/scala/example/Lists.scala:43:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    if (xs.isEmpty) None[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
