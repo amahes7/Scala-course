@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/src/main/scala/recfun/RecFun.scala:21:9: method main is defined twice;[0m
+[0m[[0m[31merror[0m] [0m[0m  the conflicting method main was defined at line 16:7[0m
+[0m[[0m[31merror[0m] [0m[0m    def main(args: Array[String]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

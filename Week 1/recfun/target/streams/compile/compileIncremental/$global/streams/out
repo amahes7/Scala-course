@@ -1,32 +1,42 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFun.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFun.scala, /Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFunInterface.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/src/main/scala/recfun/RecFunInterface.scala, /Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/src/main/scala/recfun/RecFun.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/Users/amaheshw/Downloads/recfun/target/scala-2.13/classes/recfun/RecFun$.class, /Users/amaheshw/Downloads/recfun/target/scala-2.13/classes/recfun/RecFun.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(recfun.RecFun)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(recfun.RecFun, recfun.RecFunInterface)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set(/Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFun.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(recfun.RecFun)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFun.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/amaheshw/Downloads/recfun/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(recfun.RecFun, recfun.RecFunInterface)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/src/main/scala/recfun/RecFunInterface.scala, /Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/src/main/scala/recfun/RecFun.scala, /Users/amaheshw/Downloads/recfun/src/main/scala/recfun/RecFun.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2fc5005a for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3fde1f9f for Scala compiler version 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/amaheshw/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/amaheshw/Downloads/recfun/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.242190247 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/amaheshw/Documents/Scala-course/Scala-course/Week 1/recfun/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.61500498 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from recfun.RecFun...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(recfun.RecFun)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(recfun.RecFun)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(recfun.RecFun,ModifiedNames(changes = UsedName(main,[Default]))) invalidates 1 classes due to The recfun.RecFun has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(main,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(recfun.RecFun)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
